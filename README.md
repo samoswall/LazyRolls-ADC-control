@@ -22,6 +22,12 @@ RU   Добавлена возможность контроля потребля
 
 
 Тестовая схема:
-![all](https://github.com/samoswall/LazyRolls-http-remote/blob/main/remote%20http%20main.png)
 
+![all](https://github.com/samoswall/LazyRolls-ADC-control/blob/main/ShemaADC.png)
+
+В платах NodeMCU и Wemos на ADC стоит делитель напряжения (расчитан на входное напряжение 3.3в), поэтому показания АЦП будут занижены почти в 3 раза.\
+При использавании ESP-12 или ESP-07 (вход АЦП до 1в) показания будут более адекватны.\
 Для желающих доработать - сделал комменты внесенных изменений.
+
+Плата и корпус в стадии разработки :)\
+![all](https://github.com/samoswall/LazyRolls-ADC-control/blob/main/3dmodel.png)
